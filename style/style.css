@@ -1,0 +1,140 @@
+.block{
+    width: 1440px;
+    height: 1024px;
+    background-color: #83ADDD;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+img[src="image/lep1.png"]{
+    
+    position: absolute;
+    margin-left: 598px;
+    top: 311px;
+    animation-name: lep1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lep1{
+    50%{
+        transform: rotate(-5deg) translateY(5px);
+    }
+}
+@keyframes lep5{
+    50%{
+        transform: rotate(5deg) translateY(5px);
+    }
+}
+@keyframes lep2{
+    50%{
+        transform: rotate(-3deg) translateY(3px);
+    }
+}
+@keyframes lep4{
+    50%{
+        transform: rotate(3deg) translateY(3px);
+    }
+}
+@keyframes dot{
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+img[src="image/lep5.png"]{
+    position: absolute;
+    margin-left: 721px;
+    top: 311px;
+    width: 122px;
+    height: 120px;
+    animation-name: lep5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+img[src="image/lep2.png"]{
+    position: absolute;
+    margin-left: 645px;
+    top: 274px;
+    animation-name: lep2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+img[src="image/lep4.png"]{
+    position: absolute;
+    margin-left: 721px;
+    top: 274px; 
+    animation-name: lep4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+img[src="image/lep3.png"]{
+    position: absolute;
+    margin-left: 684px;
+    
+    top: 261px;
+        
+}
+.dot1{
+    position: absolute;
+    top: 245px;
+    margin-left: 680px;
+    animation-name: dot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.dot2{
+    position: absolute;
+    top: 240px;
+    margin-left: 717px; 
+    animation-name: dot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+.dot3{
+    position: absolute;
+    top: 245px;
+    margin-left: 754px; 
+    animation-name: dot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.progress{
+    position: absolute;
+    width: 270px;
+    height: 15px;
+    margin-left: 585px;
+    top: 451px;
+    background: #FFD8DE;
+    border-radius: 20px;
+}
+.load{
+    position: absolute;
+    width: 0px;
+    height: 15px;
+    margin-left: 585px;
+    top: 451px;
+    background: #F5A3B7;
+    border-radius: 20px;   
+    animation-name: load;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+@keyframes load{
+    form{
+        width: 0px;
+    }
+    to{
+        width: 270px; 
+    }
+}
+img[src="image/добро пожаловать!.png"]{
+    position: absolute;
+    top: 326px;
+    margin-left: 634px;
+}
